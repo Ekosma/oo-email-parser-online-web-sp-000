@@ -12,7 +12,7 @@ class EmailAddressParser
   end
   
   def parce
-    @email.split().uniq
+    @email.split(",").uniq
   end
 end
   
