@@ -11,7 +11,7 @@ class EmailAddressParser
     @email = email
   end
   
-  def parce
+  def parse
     @email.split(",").uniq
     @email.split(" ").uniq
   end
